@@ -15,7 +15,7 @@
 
 <body>
   <header class="primary-header">
-    <div class="container">
+    <div class="nav-wrapper">
       <a href="#">
         <img src="/images/Logo.svg" alt="">
       </a>
@@ -25,66 +25,72 @@
           <li><a href="#">Services</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Extra Sales Page</a></li>
+          <button class="button">Get your free guide now</button>
         </ul>
       </nav>
-      <button class="button">Get your free guide now</button>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div>
-        <p>Proven strategies backed by science for success.</p>
-        <h1>Live life at the <br> full potential</h1>
-        <p>I help people to discover their true potential and live a fulfilling life...
-          Discover the simple 3 steps that I discovered to hack productivity. It just works and it is begin using backed
-          by science. Wanna transform your life?</p>
-      </div>
-      <button class="button">Get your free guide now</button>
-
-      <div>
-        <img src="/images/banner.png" alt="">
+      <div class="even-columns container item-center">
         <div>
-          <img src="/images/icons/target.svg" alt="">
-          <div>
-            <p>100%</p>
-            <p>Success rate this year</p>
+          <p class="mb-4">Proven strategies backed by science for success.</p>
+          <h1 class="fs-secondary-heading fw-bold mb-4">Live life at the <br> full potential</h1>
+          <p class="mb-4">I help people to discover their true potential and live a fulfilling life...
+            Discover the simple 3 steps that I discovered to hack productivity. It just works and it is begin using
+            backed
+            by science. Wanna transform your life?</p>
+          <button class="button">Get your free guide now</button>
+        </div>
+
+        <div>
+          <img class="banner-img" src="/images/banner.png" alt="">
+          <div class="target">
+            <img class="" src="/images/icons/target.svg" alt="">
+            <div>
+              <p class="fw-bold fs-700">100%</p>
+              <p class="fs-200">Success rate this year</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="introduction">
-      <div>
-        <h2>I can help you in these particular areas.</h2>
+    <section class="introduction | container padding-block-900">
+      <div class="even-columns">
+        <h2 class="fs-primary-heading fw-bold">I can help you in these particular areas.</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua minim veniam. <br>
+          magna aliqua minim veniam. <br> <br>
 
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
           aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
         </p>
       </div>
 
-      <div>
-        <div>
-          <img src="/images/icons/coaching.svg" alt="">
-          <p>Coaching</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      <div class="even-columns">
+        <div class="introduction_card">
+          <img class="mb-5" src="/images/icons/coaching.svg" alt="">
+          <p class="fw-bold fs-700">Coaching</p>
+          <p class="fs-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et
             dolore magna aliqua minim veniam.
           </p>
         </div>
-        <div>
-          <img src="/images/icons/cousultation.svg" alt="">
-          <p>Cousultation</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        <div class="introduction_card">
+          <img class="mb-5" src="/images/icons/cousultation.svg" alt="">
+          <p class="fw-bold fs-700">Cousultation</p>
+          <p class="fs-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et
             dolore magna aliqua minim veniam.
           </p>
         </div>
-        <div>
-          <img src="/images/icons/group.svg" alt="">
-          <p>Group Coaching Sessions</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        <div class="introduction_card">
+          <img class="mb-5" src="/images/icons/group.svg" alt="">
+          <p class="fw-bold fs-700">Group Coaching Sessions</p>
+          <p class="fs-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et
             dolore magna aliqua minim veniam.
           </p>
         </div>
@@ -92,61 +98,121 @@
     </section>
 
     <section class="reviews">
-      <h2>Hear out what my <br> clients say about me.</h2>
-      <div>
-        <div>
-          <p>"I gained so much confidence in my ability to connect and deepen my relationships with people. "</p>
-          <p>Jane</p>
-          <img src="/images/person/person1.png" alt="">
-          <ul role="list">
-            <li><img src="/images/icons/Star.svg" alt=""></li>
-            <li><img src="/images/icons/Star.svg" alt=""></li>
-            <li><img src="/images/icons/Star.svg" alt=""></li>
-            <li><img src="/images/icons/Star.svg" alt=""></li>
-            <li><img src="/images/icons/Star.svg" alt=""></li>
-          </ul>
+      <div class="container padding-block-900">
+        <h2 class="fs-primary-heading fw-bold mb-6">Hear out what my <br> clients say about me.</h2>
+        <div class="even-columns">
+          <div class="review-card">
+            <p class="fs-700">"I gained so much confidence in my ability to connect and deepen my relationships with
+              people. "</p>
+            <p class="fs-700 fw-semi-bold">Jane</p>
+            <img class="review-person" src="/images/person/person1.png" alt="">
+            <ul role="list" class="review-star">
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+            </ul>
+          </div>
+          <div class="review-card">
+            <p class="fs-700">"I gained so much confidence in my ability to connect and deepen my relationships with
+              people. "</p>
+            <p class="fs-700 fw-semi-bold">Jane</p>
+            <img class="review-person" src="/images/person/person1.png" alt="">
+            <ul role="list" class="review-star">
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+            </ul>
+          </div>
+          <div class="review-card">
+            <p class="fs-700">"I gained so much confidence in my ability to connect and deepen my relationships with
+              people. "</p>
+            <p class="fs-700 fw-semi-bold">Jane</p>
+            <img class="review-person" src="/images/person/person1.png" alt="">
+            <ul role="list" class="review-star">
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+              <li><img src="/images/icons/Star.svg" alt=""></li>
+            </ul>
+          </div>
         </div>
+
       </div>
     </section>
 
-    <section class="blogs">
-      <h2>Stay Motivated, read the <br> weekly blog articles.</h2>
-      <div>
-        <div>
+    <section class="blogs | padding-block-900 container">
+      <h2 class="fs-primary-heading fw-bold text-center mb-6">Stay Motivated, read the <br> weekly blog articles.</h2>
+      <div class="even-columns mb-5">
+        <div class="blog-card">
           <img src="/images/glassesOn.png" alt="">
-          <h3>Balancing your love and work life.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua minim veniam.
-          </p>
+          <div class="blog-content">
+            <h3 class="fs-700 fw-semi-bold">Balancing your love and work life.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua minim veniam.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="/images/book.png" alt="">
+          <div class="blog-content">
+            <h3 class="fs-700 fw-semi-bold">Balancing your love and work life.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua minim veniam.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="/images/cameraInHand.png" alt="">
+          <div class="blog-content">
+            <h3 class="fs-700 fw-semi-bold">Balancing your love and work life.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua minim veniam.
+            </p>
+          </div>
         </div>
       </div>
-      <button class="button">Read more blogs</button>
+      <div class="flex justify-center">
+        <button class="button">Read more blogs</button>
+      </div>
     </section>
 
-    <section class="free-guide">
+    <section class="free-guide | even-columns container padding-block-900">
       <div>
-        <h2>Don’t miss out on my ‘Live life at the full potential’ free guide</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        <h2 class="fs-primary-heading fw-bold mb-5">Don’t miss out on my ‘Live life at the full potential’ free guide
+        </h2>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore
           magna aliqua minim veniam.
         </p>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        <p class="mb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+          laudantium, totam rem
           aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
         </p>
         <button class="button">Get your free guide now</button>
       </div>
-
-      <div>
-        <p>Are you ready to transform your life</p>
-        <div>Free Guide</div>
-        <img src="/images/withBookInHand.png" alt="">
+      <div class="flex justify-center">
+        <div class="free-guide-sideImg">
+          <img class="free-guide-img-txt" src="./images//changeLifeTxt.svg" alt="">
+          <div class="free-guide-seal">
+            <div>Free Guide</div>
+          </div>
+          <img class="free-guide-img" src="/images/withBookInHand.png" alt="">
+        </div>
       </div>
     </section>
 
-    <section class="cta">
-      <div>
-        <h2>Get 15-Minutes Complimentary online session.</h2>
-        <p>Limited Period Offer. Claim Now.</p>
-        <button class="button">Book now</button>
+    <section class="cta | container even-columns rounded-md">
+      <div class="flex justify-center flex-col p-16">
+        <h2 class="fs-800 fw-bold mb-4">Get 15-Minutes Complimentary online session.</h2>
+        <p class="mb-5">Limited Period Offer. Claim Now.</p>
+        <div>
+          <button class="button">Book now</button>
+        </div>
       </div>
 
       <div>
@@ -154,26 +220,28 @@
       </div>
     </section>
 
-    <footer>
-      <section class="subscribe">
-        <div>
-          <p>Get notified when I publish new articles</p>
-          <p>Stay up to date with the latest news, announcements, and articles.</p>
-        </div>
-        <div>
-          <input type="text">
-          <button>Subscribe</button>
+    <footer class="padding-block-900">
+      <section class="subscribe mb-6">
+        <div class=" even-columns container item-center">
+          <div>
+            <p class="fs-700 fw-bold">Get notified when I publish new articles</p>
+            <p>Stay up to date with the latest news, announcements, and articles.</p>
+          </div>
+          <div class="flex justify-center gap-4">
+            <input class="email-input" type="text" placeholder="Enter Your Email">
+            <button class="button">Subscribe</button>
+          </div>
         </div>
       </section>
 
-      <section class="footer">
+      <section class="footer even-columns justify-i-center">
         <div>
           <img src="/images/Logo.svg" alt="">
           <p>Design amazing digital experiences that create more happy in the world.</p>
         </div>
 
         <div>
-          <p>Pages</p>
+          <p class="fw-bold">Pages</p>
           <ul role="list">
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
@@ -183,7 +251,7 @@
           </ul>
         </div>
         <div>
-          <p>Contact</p>
+          <p class="fw-bold">Contact</p>
           <ul role="list">
             <li><a href="#">+123 456 789</a></li>
             <li><a href="#">hello@happydigital.nl</a></li>
